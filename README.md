@@ -1,3 +1,3 @@
 
-# SpartaScoop #
+## SpartaScoop ##
 ### Stay Connected ###
