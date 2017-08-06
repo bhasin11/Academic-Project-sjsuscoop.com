@@ -4,7 +4,7 @@
 ### Stay Connected to Campus ###
 
 Contents
-* [Project Description](https://github.com/bhasin11/Academic-Project-spartascoop.com/blob/addDocuments/README.md/#abc)
+<!-- * [Project Description](https://github.com/bhasin11/Academic-Project-spartascoop.com/blob/addDocuments/README.md/#abc)
 * [Requirements](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/queue.js)
 * [Web UI Requirement Principles - VOC, Personas, Job Shadowing](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/circularQueue.js)
 * [Web UI Design Principles – Storyboard, Wireframes](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/linkedList.js)
@@ -20,6 +20,27 @@ Contents
 * [Java Script Libraries – documentation](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [SEO](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Profiling](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
+* [Website Analytics](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
+* [Website](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js) -->
+
+* Project Description
+* Requirements
+* Web UI Requirement Principles - VOC, Personas, Job Shadowing
+* Web UI Design Principles – Storyboard, Wireframes
+* Interfaces – RESTFul
+* Server Side Design
+* High Level Architecture Design
+* Data Flow Diagram
+* Sequence or Workflow
+* HTML5 Features Used
+* Client Side Design
+* Testing (Stress test)
+* Cross Browser Compatibility
+* Java Script Libraries – documentation
+* SEO
+* Profiling
+* Website Analytics
+* Website
 
 
 ## Project Description ##
@@ -930,7 +951,7 @@ Following methods have been incorporated in Sparta-Scoop for improving search en
 ### Visitor Analysis ###
 ![picture](/Documentation/img/analytics/VisitorAnalysis.png)
 
-## Website Analytics ##
+## Website ##
 
 ### Admin monthly posts ###
 ![picture](/Documentation/img/website/Admin-monthlyPosts.png)
