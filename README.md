@@ -37,6 +37,7 @@ Based on the popularity of the initial release, we plan to incorporate several m
 *	Course and professor reviews
 *	Buy and sell items
 *	Online tutoring<br>
+
 We also plan to release our platform for other universities, by customizing it to the needs and requirements of the specific university.<br>
 To prevent external influence, the website is only accessible to people who hold a valid email id of sjsu.edu domain.
 
