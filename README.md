@@ -4,43 +4,24 @@
 ### Stay Connected to Campus ###
 
 Contents
-<!-- * [Project Description](https://github.com/bhasin11/Academic-Project-spartascoop.com/blob/addDocuments/README.md/#abc)
-* [Requirements](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/queue.js)
-* [Web UI Requirement Principles - VOC, Personas, Job Shadowing](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/circularQueue.js)
-* [Web UI Design Principles – Storyboard, Wireframes](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/linkedList.js)
-* [Interfaces – RESTFul](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Server Side Design](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [High Level Architecture Design](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Data Flow Diagram](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Sequence or Workflow](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [HTML5 Features Used](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Client Side Design](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Testing (UI or Stress test)](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)|
-* [Cross Browser Compatibility](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Java Script Libraries – documentation](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [SEO](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Profiling](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Website Analytics](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Website](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js) -->
-
 * [Project Description](#description)
-* Requirements
-* Web UI Requirement Principles - VOC, Personas, Job Shadowing
-* Web UI Design Principles – Storyboard, Wireframes
-* Interfaces – RESTFul
-* Server Side Design
-* High Level Architecture Design
-* Data Flow Diagram
-* Sequence or Workflow
-* HTML5 Features Used
-* Client Side Design
-* Testing (Stress test)
-* Cross Browser Compatibility
-* Java Script Libraries – documentation
-* SEO
-* Profiling
-* Website Analytics
-* Website
+* [Requirements(#requirements)
+* [Web UI Requirement Principles - VOC, Personas, Job Shadowing(#req)
+* [Web UI Design Principles – Storyboard, Wireframes](#principles)
+* [Interfaces – RESTFul](#rest)
+* [Server Side Design](#server)
+* [High Level Architecture Design](#hlad)
+* [Data Flow Diagram](#flow)
+* [Sequence or Workflow](#sequence)
+* [HTML5 Features Used](#html5)
+* [Client Side Design](#clinet)
+* [Testing (Stress test)](#test)
+* [Cross Browser Compatibility](#cross)
+* [Java Script Libraries – documentation](#js)
+* [SEO](#seo)
+* [Profiling](#profiling)
+* [Website Analytics](#analytics)
+* [Website Snapshots](#website)
 
 
 ## <a name="description"></a>Project Description ##
@@ -58,7 +39,7 @@ Based on the popularity of the initial release, we plan to incorporate several m
 We also plan to release our platform for other universities, by customizing it to the needs and requirements of the specific university.<br>
 To prevent external influence, the website is only accessible to people who hold a valid email id of sjsu.edu domain.
 
-## Requirements ##
+## <a name="requirements"></a>Requirements ##
 
 *	Students with valid email address can sign up and use the platform.
 *	Registered users can make new posts and can view existing posts.
@@ -78,7 +59,7 @@ To prevent external influence, the website is only accessible to people who hold
 *	User can search for a specific accommodation, update, delete accommodation posts.
 *	User can search for a specific event, update, delete event posts.
 
-## Web UI Requirement Principles - VOC, Personas, Job Shadowing ##
+## <a name="req"></a>Web UI Requirement Principles - VOC, Personas, Job Shadowing ##
 
 ### Voice of the Customer(VOC) ###
 Voice of the customer (VOC) is a term used in business and Information Technology (through ITIL, for example) to describe the in-depth process of capturing customer's expectations, preferences and aversions. <br>
@@ -112,7 +93,7 @@ Following methods were used for job shadowing:
 * Discussing common problems and ideas with students and staff while on campus.
 * Analyzing the results of our survey.
 
-## Web UI Design Principles – Storyboard, Wireframes ##
+## <a name="principles"></a>Web UI Design Principles – Storyboard, Wireframes ##
 
 ### Wireframes ###
 
@@ -134,7 +115,7 @@ Following wireframes were used for designing our website:
 <br>
 
 
-## Interfaces – RESTful ##
+## <a name="rest"></a>Interfaces – RESTful ##
 Representational state transfer (REST) or RESTful Web services are one way of providing interoperability between computer systems on the Internet. REST-compliant Web services allow requesting systems to access and manipulate textual representations of Web resources using a uniform and predefined set of stateless operations.<br>
 Sparta-Scoop has been developed in a completely RESTful way to provide extensibility and reusability, so that it can be modified for other universities as well. <br>
 The backend has been developed through Node.js and Express.js. The file server.js contains all endpoints which are provided by the server.<br>
@@ -786,7 +767,7 @@ Following are the various endpoints which are used for interacting with the back
     Return – Success HTTP 200 Ok
     Return - Failure HTTP 500
 
-## Server Side Design ##
+## <a name="server"></a>Server Side Design ##
 Following are the design patterns used in the project:
 #### Adapter: ####
 The Adapter pattern translates one interface (an object's properties and methods) to another. Adapters allows programming components to work together that otherwise wouldn't because of mismatched interfaces. The Adapter pattern is also referred to as the Wrapper Pattern.<br>
@@ -795,16 +776,16 @@ Another scenario is refactoring in which parts of the program are rewritten with
 The portal uses the adapter pattern when it saves and retrieves images from the database in the following fashion:
 ![picture](/Documentation/img/designpattern.png)
 
-## High Level Architecture Design ##
+## <a name="hlad"></a>High Level Architecture Design ##
 ![picture](/Documentation/img/hld.png)
 
-## Data Flow Diagram ##
+## <a name="flow"></a>Data Flow Diagram ##
 ![picture](/Documentation/img/dataflow.png)
 
-## Sequence Diagram ##
+## <a name="sequence"></a>Sequence Diagram ##
 ![picture](/Documentation/img/sequence.png)
 
-## HTML5 Features Used ##
+## <a name="html5"></a>HTML5 Features Used ##
 
 Following HTML 5 features were used during the development of our website:
 * &lt;article&gt;	Defines an article in a document
@@ -826,7 +807,7 @@ New HTML5 attributes used:
 * Autofocus: The autofocus attribute is a Boolean attribute. When present, it specifies that an <input> element should automatically get focus when the page loads.
 
 
-## Client Side Design ##
+## <a name="client"></a>Client Side Design ##
 
 Sparta Scoop is designed in a way which allows decoupling of the front end and the back-end to provision independent development of modules and features. <br>
 Following are the pages through which the user can interact:
@@ -862,7 +843,7 @@ Allows students to create new account or log into an existing account. Only peop
 Admin dashboard allows the website admin to monitor website related stats. This page contains various charts based on website usage, which gives better insights of how the platform is performing and what’s popular.
 
 
-## Testing (UI or Stress test) ##
+## <a name="test"></a>Testing (UI or Stress test) ##
 
 ![picture](/Documentation/img/testing/test1.png)
 
@@ -871,7 +852,7 @@ Admin dashboard allows the website admin to monitor website related stats. This 
 ![picture](/Documentation/img/testing/test3.png)
 
 
-## Cross Browser Compatibility ##
+## <a name="cross"></a>Cross Browser Compatibility ##
 
 Getting a page to look identical in different browsers is, sadly, far from simple.
 This is because:
@@ -893,7 +874,7 @@ To be sure that the website provides consistent experience across all browsers, 
 	o	Internet Explorer
 
 
-## Java Script Libraries – documentation ##
+## <a name="js"></a>Java Script Libraries – documentation ##
 
 Following JavaScript libraries were used for the development of our website:
 * Angular.js
@@ -905,7 +886,7 @@ Bootstrap is a free and open-source front-end web framework for designing websit
 * Highcharts
 Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie, scatter, angular gauges, arearange, areasplinerange, columnrange, bubble, box plot, error bars, funnel, waterfall and polar chart types. Highcharts were used for monitoring the usage of our website in the admin dashboard page. 
 
-## Search Engine Optimization Provisioning ##
+## <a name="seo"></a>Search Engine Optimization Provisioning ##
 
 Following methods have been incorporated in Sparta-Scoop for improving search engine optimization: 
 1.	Provide a unique title for each page with important keywords near the beginning of the title. 
@@ -926,7 +907,7 @@ Following methods have been incorporated in Sparta-Scoop for improving search en
 * Enable asynchronous downloading of external js files
 
 
-## Profiling ##
+## <a name="profiling"></a>Profiling ##
 
 ![picture](/Documentation/img/profiling/1.png)
 ![picture](/Documentation/img/profiling/2.png)
@@ -934,7 +915,7 @@ Following methods have been incorporated in Sparta-Scoop for improving search en
 ![picture](/Documentation/img/profiling/4.png)
 ![picture](/Documentation/img/profiling/5.png)
 
-## Website Analytics ##
+## <a name="analytics"></a>Website Analytics ##
 
 ### Active Users ###
 ![picture](/Documentation/img/analytics/ActiveUserAnalytics.png)
@@ -951,7 +932,7 @@ Following methods have been incorporated in Sparta-Scoop for improving search en
 ### Visitor Analysis ###
 ![picture](/Documentation/img/analytics/VisitorAnalysis.png)
 
-## Website ##
+## <a name="website"></a>Website Snapshots##
 
 ### Admin monthly posts ###
 ![picture](/Documentation/img/website/Admin-monthlyPosts.png)
