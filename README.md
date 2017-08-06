@@ -1,2 +1,4 @@
 
-# SpartaScoop #
+# SpartaScoop: # 
+
+### Stay Connected to Campus ###
