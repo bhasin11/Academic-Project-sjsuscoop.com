@@ -4,7 +4,7 @@
 ### Stay Connected to Campus ###
 
 Contents
-* [Project Description](https://github.com/bhasin11/Academic-Project-spartascoop.com/blob/addDocuments/README.md#abc)
+* [Project Description](#abc)
 * [Requirements](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/queue.js)
 * [Web UI Requirement Principles - VOC, Personas, Job Shadowing](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/circularQueue.js)
 * [Web UI Design Principles – Storyboard, Wireframes](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/linkedList.js)
