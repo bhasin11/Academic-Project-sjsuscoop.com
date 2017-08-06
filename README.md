@@ -8,19 +8,16 @@ Contents
 * [Requirements](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/queue.js)
 * [Web UI Requirement Principles - VOC, Personas, Job Shadowing](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/circularQueue.js)
 * [Web UI Design Principles – Storyboard, Wireframes](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/linkedList.js)
-* [Interfaces – RESTFul & Server Side Design](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
+* [Interfaces – RESTFul](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
+* [Server Side Design](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [High Level Architecture Design](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Data Flow Diagram](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Sequence or Workflow](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [HTML5 Features Used](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Client Side Design](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Testing (UI or Stress test)](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)|
-* [Automation (Selenium)](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Cross Browser Compatibility](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Java Script Libraries – documentation](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Design Patterns Used](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Pagination](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
-* [Localization](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [SEO](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Profiling](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 
@@ -40,8 +37,8 @@ Based on the popularity of the initial release, we plan to incorporate several m
 We also plan to release our platform for other universities, by customizing it to the needs and requirements of the specific university.<br>
 To prevent external influence, the website is only accessible to people who hold a valid email id of sjsu.edu domain.
 
-
 ## Requirements ##
+
 *	Students with valid email address can sign up and use the platform.
 *	Registered users can make new posts and can view existing posts.
 *	All users can view the jobs posted on job page.
@@ -116,7 +113,7 @@ Following wireframes were used for designing our website:
 <br>
 
 
-## Interfaces – RESTful & Server Side Design ##
+## Interfaces – RESTful ##
 Representational state transfer (REST) or RESTful Web services are one way of providing interoperability between computer systems on the Internet. REST-compliant Web services allow requesting systems to access and manipulate textual representations of Web resources using a uniform and predefined set of stateless operations.<br>
 Sparta-Scoop has been developed in a completely RESTful way to provide extensibility and reusability, so that it can be modified for other universities as well. <br>
 The backend has been developed through Node.js and Express.js. The file server.js contains all endpoints which are provided by the server.<br>
@@ -767,7 +764,7 @@ Following are the various endpoints which are used for interacting with the back
     Return – Success HTTP 200 Ok
     Return - Failure HTTP 500
 
-### Server Side Design ###
+## Server Side Design ##
 Following are the design patterns used in the project:
 #### Adapter: ####
 The Adapter pattern translates one interface (an object's properties and methods) to another. Adapters allows programming components to work together that otherwise wouldn't because of mismatched interfaces. The Adapter pattern is also referred to as the Wrapper Pattern.<br>
@@ -807,7 +804,6 @@ New HTML5 attributes used:
 The autocomplete attribute specifies whether or not an input field should have autocomplete enabled.
 <br>
 Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
-
 * Autofocus:
 The autofocus attribute is a Boolean attribute. When present, it specifies that an <input> element should automatically get focus when the page loads.
 
@@ -849,6 +845,77 @@ Admin dashboard allows the website admin to monitor website related stats. This 
 
 
 ## Testing (UI or Stress test) ##
+
+![picture](/Documentation/img/testing/test1.png)
+
+![picture](/Documentation/img/testing/test2.png)
+
+![picture](/Documentation/img/testing/test3.png)
+
+
+## Cross Browser Compatibility ##
+
+Getting a page to look identical in different browsers is, sadly, far from simple.
+This is because:
+* Different browsers implement CSS styling in different ways
+* Some browsers don’t support some css selectors
+* Some browsers have bugs in their implementation of css
+
+To provide consistent experience to users across all browsers, following steps were taken:
+* Valid Code:
+Used the W3C html validator and CSS validator while coding to check we haven’t made any silly mistakes.
+* Used Firebug:
+Firebug is a handy little plug-in for Firefox that lets you view the css applied to any particular element simply by highlighting it on screen. If you highlight code in the html Firebug will shade the item and display margins and padding.
+* Used CSS @supports Rule
+The CSS @supports allows you to wrap your CSS rules within the @supports query so that the rule will only be applied if it’s supported on a particular browser. If a rule isn’t supported, it’ll get skipped over as if the rule weren’t there, which can really come in handy for those properties you want to use but don’t want to look terrible if they happen to not be supported on a browser.
+* Test Driven Development:
+To be sure that the website provides consistent experience across all browsers, we tested all the features during development on the three most commonly used browsers-
+	o	Mozilla Firefox
+	o	Google Chrome
+	o	Internet Explorer
+
+
+## Java Script Libraries – documentation ##
+
+Following JavaScript libraries were used for the development of our website:
+* Angular.js
+AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.<br>
+It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications.
+<br>
+The front end of the platform uses Angular.js to provide dynamic content to users.
+* Node.js & Express.js
+Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.
+<br>
+The back-end of the website is developed using Node and Express.
+* Bootstrap.js
+Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.
+Bootstrap helped us to provide consistent view of the website across all devices.
+* Highcharts
+Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie, scatter, angular gauges, arearange, areasplinerange, columnrange, bubble, box plot, error bars, funnel, waterfall and polar chart types. Highcharts were used for monitoring the usage of our website in the admin dashboard page. 
+
+## Search Engine Optimization Provisioning ##
+
+Following methods have been incorporated in Sparta-Scoop for improving search engine optimization: 
+1.	Provide a unique title for each page with important keywords near the beginning of the title. 
+2.	Add a description meta tag to each page with a unique description for each page. 
+3.	Name all the images with a related keyword. Use alt tags. Make images as small as possible. Use image optimizer. 
+4.	Use .html links more preferably. 
+5.	For all the image links, put keywords in the alt attribute text. 
+6.	Keep the URL short and human readable. Avoid dynamic parameters whenever/wherever possible. 
+7.	Use robots.txt to block the search engine from indexing few pages
+8.	Use rel=” next” and rel=” prev” in the <head> tag to indicate the relationship between the URLs
+9.	Declare language attribute in HTML page
+10.	Use different URL for desktop and mobile devices. rel=” canonical” and rel=” alternate”.
+11.	Remove all the scripts from the html pages.
+12.	Add social meta tag to the web pages
+13.	Increase page loading speed 
+	a.	Minify code by removing unnecessary white spaces
+	b.	Use CSS sprites to reduce server requests 
+	c.	Enable asynchronous downloading of external js files
+
+
+
+
 
 
 
