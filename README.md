@@ -32,6 +32,7 @@ The first version of our platform has been designed specifically for San Jose St
 *	Jobs and internships
 *	Accommodations
 *	On campus events <br>
+
 Based on the popularity of the initial release, we plan to incorporate several more features like:
 *	Course and professor reviews
 *	Buy and sell items
@@ -956,5 +957,3 @@ Following methods have been incorporated in Sparta-Scoop for improving search en
 ![picture](/Documentation/img/website/Timeline-jobs.png)
 ### Timeline-pagination ###
 ![picture](/Documentation/img/website/Timeline-pagination.png)
-### Timeline-pagination 2 ###
-![picture](/Documentation/img/website/Timeline-pagination2.png)
