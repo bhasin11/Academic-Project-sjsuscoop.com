@@ -14,7 +14,7 @@ Contents
 * [Data Flow Diagram](#flow)
 * [Sequence or Workflow](#sequence)
 * [HTML5 Features Used](#html5)
-* [Client Side Design](#clinet)
+* [Client Side Design](#client)
 * [Testing (Stress test)](#test)
 * [Cross Browser Compatibility](#cross)
 * [Java Script Libraries – documentation](#js)
@@ -956,5 +956,5 @@ Following methods have been incorporated in Sparta-Scoop for improving search en
 ![picture](/Documentation/img/website/Timeline-jobs.png)
 ### Timeline-pagination ###
 ![picture](/Documentation/img/website/Timeline-pagination.png)
-### Timeline-pagination 2###
+### Timeline-pagination 2 ###
 ![picture](/Documentation/img/website/Timeline-pagination2.png)
