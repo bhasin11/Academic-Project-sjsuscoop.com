@@ -23,7 +23,7 @@ Contents
 * [Website Analytics](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js)
 * [Website](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/doublyLinkedList.js) -->
 
-* Project Description
+* [Project Description](#description)
 * Requirements
 * Web UI Requirement Principles - VOC, Personas, Job Shadowing
 * Web UI Design Principles – Storyboard, Wireframes
@@ -43,7 +43,7 @@ Contents
 * Website
 
 
-## Project Description ##
+## <a name="description"></a>Project Description ##
 Sparta-Scoop is an attempt to ease the life of college students. It aims to address all those problems which are common for a college goer, and which can be solved through a network of students and alumni.<br>
 The idea is unique and has infinite potential because each year thousands of students join higher studies in the USA, and face common issues and concerns, such as deciding which courses to enroll for, which professors to choose, finding accommodations, jobs and internships. Such problems are amplified for international students, who are new to USA and are not familiar with the college life here.<br>
 Even though some websites have tried to address some of these issues, they haven’t been completely successful. On the other hand, SpartaScoop tackles all issues on a single platform, which is designed in a way that it can be extended and customized based on the needs of a specific college or university.The developers of this solution are all international students, and have been through all the scenarios where community help and student cooperation are of ultimate help. Thus, we have aimed to incorporate all those features, which can be of help to a student.<br>
