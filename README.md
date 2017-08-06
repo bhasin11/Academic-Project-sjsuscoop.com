@@ -932,7 +932,7 @@ Following methods have been incorporated in Sparta-Scoop for improving search en
 ### Visitor Analysis ###
 ![picture](/Documentation/img/analytics/VisitorAnalysis.png)
 
-## <a name="website"></a>Website Snapshots##
+## <a name="website"></a>Website Snapshots ##
 
 ### Admin monthly posts ###
 ![picture](/Documentation/img/website/Admin-monthlyPosts.png)
