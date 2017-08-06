@@ -5,8 +5,8 @@
 
 Contents
 * [Project Description](#description)
-* [Requirements(#requirements)
-* [Web UI Requirement Principles - VOC, Personas, Job Shadowing(#req)
+* [Requirements](#requirements)
+* [Web UI Requirement Principles - VOC, Personas, Job Shadowing](#req)
 * [Web UI Design Principles – Storyboard, Wireframes](#principles)
 * [Interfaces – RESTFul](#rest)
 * [Server Side Design](#server)
