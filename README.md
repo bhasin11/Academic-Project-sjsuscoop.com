@@ -188,7 +188,6 @@ Following are the various endpoints which are used for interacting with the back
     Return - Failure HTTP 500 - {"message" : "Unable to delete user"}
     Action User Login
 <br>
-<br>
 
     URI {hostname}/v1/users/login
     HTTP Method HTTP POST
@@ -207,6 +206,8 @@ Following are the various endpoints which are used for interacting with the back
     Return – Success HTTP 200 Ok - { "message" : "Email is unique"}
     Return - Failure HTTP 404 - { "message" : "Email already exists"}
     Action Get User jobs
+<br>
+
     URI {hostname}/v1/users/:userid/jobs
     HTTP
     Method
@@ -785,27 +786,23 @@ The portal uses the adapter pattern when it saves and retrieves images from the 
 ## HTML5 Features Used ##
 
 Following HTML 5 features were used during the development of our website:
-* <article>:	Defines an article in a document
-* <aside>	Defines content aside from the page content
-* <footer>	Defines a footer for a document or section
-* <header>	Defines a header for a document or section
-* <section>	Defines a section in a document
-* <address>	Defines contact information for the author/owner of a document
-* <progress>	Represents the strength of a password
-* <figcaption>	Defines a caption for a <figure> element
-* <wbr>		Defines a possible line-break
-* <nav>		Represents a section of the document intended for navigation.
-* <Email>	Input type should be an email.
-* <search>	Term to supply to a search engine. For example, the search bar atop a                                                                  browser.
-* <canvas>         HTML5 element <canvas> gives you an easy and powerful way to draw    graphics using JavaScript. It can be used to draw graphs, make photo compositions or do simple (and not so simple) animations.
-* <figure>           Represents a piece of self-contained flow content, typically referenced                                     as a single unit from the main flow of the document.
+* &lt;article&gt;	Defines an article in a document
+* &lt;aside&gt;		Defines content aside from the page content
+* &lt;footer&gt;	Defines a footer for a document or section
+* &lt;header&gt;	Defines a header for a document or section
+* &lt;section&gt;	Defines a section in a document
+* &lt;address&gt;	Defines contact information for the author/owner of a document
+* &lt;progress&gt;	Represents the strength of a password
+* &lt;figcaption&gt;	Defines a caption for a <figure> element
+* &lt;wbr&gt;		Defines a possible line-break
+* &lt;nav&gt;		Represents a section of the document intended for navigation.
+* &lt;Email&gt;		Input type should be an email.
+* &lt;search&gt;	Term to supply to a search engine. For example, the search bar atop a browser.
+* &lt;canvas&gt;        HTML5 element <canvas> gives you an easy and powerful way to draw graphics using JavaScript. It can be used to draw graphs, make photo compositions or do simple (and not so simple) animations.
+* &lt;figure&gt;        Represents a piece of self-contained flow content, typically referenced as a single unit from the main flow of the document.
 New HTML5 attributes used:
-* Autocomplete:
-The autocomplete attribute specifies whether or not an input field should have autocomplete enabled.
-<br>
-Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
-* Autofocus:
-The autofocus attribute is a Boolean attribute. When present, it specifies that an <input> element should automatically get focus when the page loads.
+* Autocomplete: The autocomplete attribute specifies whether or not an input field should have autocomplete enabled. Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
+* Autofocus: The autofocus attribute is a Boolean attribute. When present, it specifies that an <input> element should automatically get focus when the page loads.
 
 
 ## Client Side Design ##
@@ -879,17 +876,11 @@ To be sure that the website provides consistent experience across all browsers, 
 
 Following JavaScript libraries were used for the development of our website:
 * Angular.js
-AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.<br>
-It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications.
-<br>
-The front end of the platform uses Angular.js to provide dynamic content to users.
+AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. The front end of the platform uses Angular.js to provide dynamic content to users.
 * Node.js & Express.js
-Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.
-<br>
-The back-end of the website is developed using Node and Express.
+Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. The back-end of the website is developed using Node and Express.
 * Bootstrap.js
-Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.
-Bootstrap helped us to provide consistent view of the website across all devices.
+Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Bootstrap helped us to provide consistent view of the website across all devices.
 * Highcharts
 Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie, scatter, angular gauges, arearange, areasplinerange, columnrange, bubble, box plot, error bars, funnel, waterfall and polar chart types. Highcharts were used for monitoring the usage of our website in the admin dashboard page. 
 
@@ -909,15 +900,59 @@ Following methods have been incorporated in Sparta-Scoop for improving search en
 11.	Remove all the scripts from the html pages.
 12.	Add social meta tag to the web pages
 13.	Increase page loading speed 
-	a.	Minify code by removing unnecessary white spaces
-	b.	Use CSS sprites to reduce server requests 
-	c.	Enable asynchronous downloading of external js files
+* Minify code by removing unnecessary white spaces
+* Use CSS sprites to reduce server requests 
+* Enable asynchronous downloading of external js files
 
 
+## Profiling ##
 
+![picture](/Documentation/img/profiling/1.png)
+![picture](/Documentation/img/profiling/2.png)
+![picture](/Documentation/img/profiling/3.png)
+![picture](/Documentation/img/profiling/4.png)
+![picture](/Documentation/img/profiling/5.png)
 
+## Website Analytics ##
 
+### Active Users ###
+![picture](/Documentation/img/analytics/ActiveUserAnalytics.png)
+### Client Analysis ###
+![picture](/Documentation/img/analytics/ClientAnalysis.png)
+### Device Analysis ###
+![picture](/Documentation/img/analytics/DeviceAnalysis.png)
+### Location Analysis ###
+![picture](/Documentation/img/analytics/LocationAnalysis.png)
+### Userflow Sankey Chart ###
+![picture](/Documentation/img/analytics/Userflow-SankeyChart.png)
+### User Session Analytics ###
+![picture](/Documentation/img/analytics/UserSessionAnalytics.png)
+### Visitor Analysis ###
+![picture](/Documentation/img/analytics/VisitorAnalysis.png)
 
+## Website Analytics ##
 
-
-
+### Admin monthly posts ###
+![picture](/Documentation/img/website/Admin-monthlyPosts.png)
+### Admin portal analysis charts ###
+![picture](/Documentation/img/website/Admin-portal-analysischarts.png)
+### Edit profile ###
+![picture](/Documentation/img/website/Edit-profile.png)
+### Localization available languages ###
+![picture](/Documentation/img/website/Localization-Available_languages.png)
+### Localization French ###
+![picture](/Documentation/img/website/Localization-French.png)
+### Localization-Hindi ###
+![picture](/Documentation/img/website/Localization-Hindi.png)
+### Login/signup page ###
+![picture](/Documentation/img/website/Loginsignuppage.png)
+### Timeline-accomodations ###
+![picture](/Documentation/img/website/Timeline-accomodations.png)
+### Timeline-events ###
+![picture](/Documentation/img/website/Timeline-events.png)
+### Timeline jobs ###
+![picture](/Documentation/img/website/Timeline-jobs.png)
+### Timeline-pagination ###
+![picture](/Documentation/img/website/Timeline-pagination.png)
+### Timeline-pagination 2###
+![picture](/Documentation/img/website/Timeline-pagination2.png)
