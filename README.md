@@ -102,17 +102,17 @@ A website wireframe, also known as a page schematic or screen blueprint, is a vi
 
 Following wireframes were used for designing our website:
 
-![picture](/Documentation/img/wireframe/login)
+![picture](/Documentation/img/wireframe/login.png)
 <br>
-![picture](/Documentation/img/wireframe/homepage)
+![picture](/Documentation/img/wireframe/homepage.png)
 <br>
-![picture](/Documentation/img/wireframe/jobspage)
+![picture](/Documentation/img/wireframe/jobspage.png)
 <br>
-![picture](/Documentation/img/wireframe/eventspage)
+![picture](/Documentation/img/wireframe/eventspage.png)
 <br>
-![picture](/Documentation/img/wireframe/accomodaionpage)
+![picture](/Documentation/img/wireframe/accomodaionpage.png)
 <br>
-![picture](/Documentation/img/wireframe/admindash)
+![picture](/Documentation/img/wireframe/admindash.png)
 <br>
 
 
@@ -775,6 +775,82 @@ One scenario where Adapters are commonly used is when new components need to be 
 Another scenario is refactoring in which parts of the program are rewritten with an improved interface, but the old code still expects the original interface.<br>
 The portal uses the adapter pattern when it saves and retrieves images from the database in the following fashion:
 ![picture](/Documentation/img/designpattern.png)
+
+## High Level Architecture Design ##
+![picture](/Documentation/img/hld.png)
+
+## Data Flow Diagram ##
+![picture](/Documentation/img/dataflow.png)
+
+## Sequence Diagram ##
+![picture](/Documentation/img/sequence.png)
+
+## HTML5 Features Used ##
+
+Following HTML 5 features were used during the development of our website:
+* <article>:	Defines an article in a document
+* <aside>	Defines content aside from the page content
+* <footer>	Defines a footer for a document or section
+* <header>	Defines a header for a document or section
+* <section>	Defines a section in a document
+* <address>	Defines contact information for the author/owner of a document
+* <progress>	Represents the strength of a password
+* <figcaption>	Defines a caption for a <figure> element
+* <wbr>		Defines a possible line-break
+* <nav>		Represents a section of the document intended for navigation.
+* <Email>	Input type should be an email.
+* <search>	Term to supply to a search engine. For example, the search bar atop a                                                                  browser.
+* <canvas>         HTML5 element <canvas> gives you an easy and powerful way to draw    graphics using JavaScript. It can be used to draw graphs, make photo compositions or do simple (and not so simple) animations.
+* <figure>           Represents a piece of self-contained flow content, typically referenced                                     as a single unit from the main flow of the document.
+New HTML5 attributes used:
+* Autocomplete:
+The autocomplete attribute specifies whether or not an input field should have autocomplete enabled.
+<br>
+Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
+
+* Autofocus:
+The autofocus attribute is a Boolean attribute. When present, it specifies that an <input> element should automatically get focus when the page loads.
+
+
+## Client Side Design ##
+
+Sparta Scoop is designed in a way which allows decoupling of the front end and the back-end to provision independent development of modules and features. <br>
+Following are the pages through which the user can interact:
+### Home page: ###
+The index page is the page the user views on a successful login.
+The index page has the following components:
+* Feeds
+Feeds on the index page allow a user to see the recent posts which have been made by him and other users of the website. The user can also see the posts which have been made by him separately on the right.
+User can also create a new post on the index page.
+* Links
+Index page also contains links to all other pages of website, which allow him to navigate through the platform effortlessly.
+
+### Jobs page: ###
+The jobs page allows the user to view the available job posts which have been made by him or by other users. He can also post a new job on this page.
+While posting new data, the user needs to provide every field which is required to create a job post. This allows a consistent post formats for all the jobs present on the platform. Also, it helps better reveal the job description and details.
+
+### Accommodations page: ###
+The accommodations page allows the user to view the available accommodations posts which have been made by him or by other users. He can also post a new accommodation on this page.
+While posting new data, the user needs to provide every field which is required to create an accommodations post. This allows a consistent post formats for all the accommodations present on the platform. Also, it helps better reveal the accommodations description and details.
+The page also features maps, to facilitate ease of finding the relevant accommodations for the user.
+
+### Events page: ###
+The events page allows the user to view the available events posts which have been made by him or by other users. He can also post a new event on this page.
+While posting new data, the user needs to provide every field which is required to create an event post. This allows a consistent post formats for all the events present on the platform. Also, it helps better reveal the event description and details.
+
+### Edit Profile: ###
+This page allows user to update his details including his profile picture.
+
+### Login/Signup: ###
+Allows students to create new account or log into an existing account. Only people with valid SJSU email can register to the website.
+
+### Admin dashboard: ###
+Admin dashboard allows the website admin to monitor website related stats. This page contains various charts based on website usage, which gives better insights of how the platform is performing and what’s popular.
+
+
+## Testing (UI or Stress test) ##
+
+
 
 
 
