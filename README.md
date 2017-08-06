@@ -1,4 +1,3 @@
 
 # SpartaScoop #
-
-ss
+### Stay Connected ###
