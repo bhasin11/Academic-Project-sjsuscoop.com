@@ -1,4 +1,4 @@
-# SpartaScoop # 
+# SJSU Scoop # 
 
 ### Stay Connected to Campus ###
 
