@@ -60,3 +60,28 @@ To prevent external influence, the website is only accessible to people who hold
 *	User can search for a specific job, update, delete job posts.
 *	User can search for a specific accommodation, update, delete accommodation posts.
 *	User can search for a specific event, update, delete event posts.
+
+## <a name="req"></a>Web UI Requirement Principles - VOC, Personas, Job Shadowing ##
+
+### Voice of the Customer(VOC) ###
+Voice of the customer (VOC) is a term used in business and Information Technology (through ITIL, for example) to describe the in-depth process of capturing customer's expectations, preferences and aversions. <br>
+Specifically, the Voice of the Customer is a market research technique that produces a detailed set of customer wants and needs, organized into a hierarchical structure, and then prioritized in terms of relative importance and satisfaction with current alternatives. <br>
+Voice of the Customer studies typically consist of both qualitative and quantitative research steps. They are generally conducted at the start of any new product, process, or service design initiative to better understand the customer's wants and needs. <br>
+To capture the voice of our customers(students), we created a survey and took responses from students all over SJSU campus. The responses helped us evaluate the needs of SJSU students, and through the results of this survey, we could zero-in on our features for our first release.<br>
+
+Here are the results of our survey:
+
+![picture](/Documentation/img/survey1.png)
+<br>
+![picture](/Documentation/img/survey2.png)
+
+### Personas ###
+
+A persona is a fictional character that communicates the primary characteristics of a group of users, identified and selected as a key target through use of segmentation data, across the company in a usable and effective manner.
+Sparta-Scoop is based on the following personas:
+Students:
+The primary user of the platform. This user uses the platform for gaining information posted on it by other students. The website must be able to provide relevant information every time a student logs in, he should also be able to share any information which can prove useful to other website users.
+The student should not be presented with irrelevant information, neither should he be troubled with incorrect or fraudulent posts.
+Alumni: 
+The students should be able to mark themselves as alumni or current students, based on whether they have graduated or not. Once graduated, the student should still be able to access the portal through an identification unique to the alumni.
+
