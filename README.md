@@ -85,3 +85,39 @@ The student should not be presented with irrelevant information, neither should 
 Alumni: 
 The students should be able to mark themselves as alumni or current students, based on whether they have graduated or not. Once graduated, the student should still be able to access the portal through an identification unique to the alumni.
 
+### Job Shadowing ###
+Job shadowing and contextual interviews are two techniques used to find out what people do, where they need help, and how your product can help them. To do that, we accompanied people while they do their jobs and talked to them about their jobs.
+Following methods were used for job shadowing:
+* Interaction with various students on campus.
+* Interaction with various student communities.
+* Discussing and analyzing problems faced by us as students at SJSU
+* Creating a survey out of those responses.
+* Discussing common problems and ideas with students and staff while on campus.
+* Analyzing the results of our survey.
+
+## <a name="principles"></a>Web UI Design Principles – Storyboard, Wireframes ##
+
+### Wireframes ###
+
+A website wireframe, also known as a page schematic or screen blueprint, is a visual guide that represents the skeletal framework of a website. Wireframes are created for arranging elements to best accomplish a particular purpose. <br>
+
+Following wireframes were used for designing our website:
+
+![picture](/Documentation/img/wireframe/login.png)
+<br>
+![picture](/Documentation/img/wireframe/homepage.png)
+<br>
+![picture](/Documentation/img/wireframe/jobspage.png)
+<br>
+![picture](/Documentation/img/wireframe/eventspage.png)
+<br>
+![picture](/Documentation/img/wireframe/accomodaionpage.png)
+<br>
+![picture](/Documentation/img/wireframe/admindash.png)
+<br>
+
+
+## <a name="rest"></a>Interfaces – RESTful ##
+Representational state transfer (REST) or RESTful Web services are one way of providing interoperability between computer systems on the Internet. REST-compliant Web services allow requesting systems to access and manipulate textual representations of Web resources using a uniform and predefined set of stateless operations.<br>
+Sparta-Scoop has been developed in a completely RESTful way to provide extensibility and reusability, so that it can be modified for other universities as well. <br>
+The backend has been developed through Node.js and Express.js. The file server.js contains all endpoints which are provided by the server.<br>
